@@ -1,0 +1,79 @@
+body{
+    background: linear-gradient(45deg,green,blue,lightskyblue);
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    border: solid 2px darkblue;
+    border-radius: 10px;
+    background: linear-gradient(180deg,darkblue,midnightblue,blue,lightskyblue);
+    height: 50px;
+    box-shadow: 0 0 10px darkgreen;
+}
+.search{
+    border: solid 2px green;
+    border-radius: 10px;
+    background: linear-gradient(180deg,darkblue,blue,green);
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: red;
+    text-shadow: 0 0 4px cyan;
+    margin-top: 5px;
+    margin-left: 700px;
+    transform: translateY(-40px);
+}
+.H1{
+    text-align: center;
+    color: darkred;
+    text-shadow: 0 0 30px red;
+}
+button{
+    border: double 10px red;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    background-color: black;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    box-shadow: 0 0 40px red;
+    transition: 0.4s linear transform,color,border,background-color;
+}
+button:hover{
+    transform:translateY(-10px);
+    color: darkred;
+    border: double 10px blue;
+    background-color: gray;
+}
+.tht{
+    border: double 15px red;
+    border-radius: 40px;
+    margin-top: 50px;
+    background-color: black;
+}
+hr{
+    border: solid 1px green;
+    background-color: darkblue;
+    height: 3px;
+    margin-top: 15px;
+}
+.A1{
+    border: double 15px rgba(161, 161, 161, 0.678);
+    border-radius: 40px;
+    padding: 15px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-color: white;
+    color: blue;
+    text-shadow: 4px 4px 4px black;
+    box-shadow: 0 0 30px white;
+    transition: 0.5s linear background-color;
+}
+.A1:hover{
+    background-color: cyan;
+}
+.uni{
+    color: yellow;
+    margin: auto;
+}

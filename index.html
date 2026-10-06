@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form class="form" action="http://127.0.0.1:5500/Mind.html#" method="GET">
+        <div class="move">
+        <hr>
+        <h1>Sign In</h1>
+        <hr>
+        <label for="name">Enter your name:</label><br><input class="input" name="name" type="text" placeholder="Name & Surname" required>
+        <br>
+        <label for="tel">Enter Phone:</label><br><input class="input" name="tel" type="tel" placeholder="Phone number" pattern="[0-9]{10}" required>
+        <br>
+        <label for="email">Enter your email:</label><br><input class="input" name="email" type="email" placeholder="Email" pattern="*[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}" required>
+        <br>
+        <label for="password">Enter your password:</label><br><input class="input" name="password" type="password" placeholder="Password" pattern="[0-9,A-Z,a-z]{5,}" required>
+        <br>
+        <label for="gender">Gender:</label><br><input name="gender" type="radio" placeholder="Male" required><label for="gender">Male</label>
+        <br>
+        <input name="gender" type="radio" placeholder="Female" required><label for="gender">Female</label>
+        <br>
+        <textarea class="input" placeholder="Hobies..." required></textarea>
+        <br>
+        <label for="birth">Date of birth</label><br><input class="input" name="birth" type="date" min="1920" max="2008" required>
+        <br>
+        <input class="input" name="age" type="number" min="18" max="100" placeholder="Age" required>
+        <br>
+        <label for="num">Student number</label><br><input class="input" name="num" type="tel" min="7" max="7" placeholder="Number" required>
+        <br>
+        <button type="submit"><b>Sign In</b></button>
+        </div>
+    </form>
+</body>
+</html>

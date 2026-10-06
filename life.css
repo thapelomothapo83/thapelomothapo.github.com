@@ -1,0 +1,9 @@
+body{
+    background: linear-gradient(45deg,darkblue,midnightblue,blue,cyan,lightskyblue,lightblue);
+}
+.L{
+    color: blue;
+    text-align: center;
+    text-shadow: 0 0 10px darkblue;
+    margin-top: 300px;
+}
